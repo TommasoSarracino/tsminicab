@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- PRIMARY SEO TAGS -->
+    <title>TS Minicab | London Fixed-Fare Minicab & Airport Transfer Service</title>
+    <meta name="description" content="Reliable London minicab \& airport transfers with fixed fares — no surge pricing. Heathrow, Gatwick, Stansted, Luton, London City. Licensed drivers, flight tracking, meet \& greet. Book instantly.">
+    <meta name="keywords" content="London minicab, airport transfers, Heathrow taxi, Gatwick transfer, fixed fare minicab, private hire London, cheap airport taxi, cruise port transfers Southampton Dover">
+    <meta name="author" content="TS Minicab">
+    <link rel="canonical" href="https://tsminicab.com/">
+ 
+    <!-- OPEN GRAPH / SOCIAL SEO -->
+    <meta property="og:type" content="service">
+    <meta property="og:title" content="TS Minicab — London's Fixed-Fare Airport Transfer Service">
+    <meta property="og:description" content="Fixed, all-inclusive fares. No surge pricing. Licensed drivers. Free 60-min airport waiting. Flight tracking \& meet and greet.">
+    <meta property="og:url" content="https://tsminicab.com/">
+    <meta property="og:image" content="https://tsminicab.com/og-image.jpg">
+ 
+    <!-- TWITTER CARDS -->
+    <meta name="twitter:card" content="summary\_large\_image">
+    <meta name="twitter:title" content="TS Minicab | London Fixed-Fare Airport Transfers">
+    <meta name="twitter:description" content="Fixed fares, no surprises. Book your London airport transfer online instantly.">
+ 
+    <!-- LOCAL BUSINESS SCHEMA MARKUP -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "TaxiService",
+          "name": "TS Minicab",
+          "url": "https://tsminicab.com/",
+          "telephone": "+44-20-3679-2664",
+          "priceRange": "££",
+          "description": "Fixed-fare minicab and airport transfer service covering all major London airports and South Coast cruise ports. All charges included — parking, tolls, Congestion Charge. Flight tracking and meet & greet included.",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "TS Minicab",
+            "telephone": "+44-20-3679-2664",
+            "email": "booking@tsminicab.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "168 Henley Avenue",
+              "addressLocality": "Sutton",
+              "postalCode": "SM3 9SA",
+              "addressCountry": "GB"
+            },
+            "openingHours": "Mo-Su 00:00-23:59",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "100"
+            }
+          },
+          "areaServed": [
+            {"@type": "Place", "name": "London"},
+            {"@type": "Place", "name": "Heathrow Airport"},
+            {"@type": "Place", "name": "Gatwick Airport"},
+            {"@type": "Place", "name": "Stansted Airport"},
+            {"@type": "Place", "name": "Luton Airport"},
+            {"@type": "Place", "name": "London City Airport"},
+            {"@type": "Place", "name": "Southampton Cruise Port"},
+            {"@type": "Place", "name": "Dover Cruise Port"}
+          ],
+          "serviceType": "Airport Transfers, Local Minicab, Cruise Port Transfers"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How far in advance should I book?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We recommend booking at least 24 hours ahead for airport and cruise transfers, but same-day bookings are accepted by phone or WhatsApp subject to availability."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you charge extra if my flight is delayed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No — we track your flight automatically and adjust pickup time. 60 minutes free waiting included at airports."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the fare fixed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — your fare is agreed upfront and never changes. Parking, tolls and Congestion Charge are all included."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+ 
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="geo.region" content="GB-LND">
+    <meta name="geo.placename" content="London">
+    <meta name="geo.position" content="51.5074;-0.1278">
+    <meta name="ICBM" content="51.5074, -0.1278">
+ 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f2942',
+                        secondary: '#2563eb',
+                        accent: '#f97316',
+                        light: '#f1f5f9',
+                        dark: '#0f172a',
+                    },
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .shadow-soft { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- TOP CONTACT BAR -->
+    <div class="bg-primary text-white py-2 px-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center text-sm">
+            <div class="flex items-center gap-4 mb-2 md:mb-0">
+                <a href="tel:+442036792664" class="flex items-center gap-1 hover:text-accent transition" aria-label="Call TS Minicab">
+                    <i class="fa fa-phone"> +44 20 3679 2664
+                </a>
+                <a href="https://wa.me/+447301920610" class="flex items-center gap-1 hover:text-accent transition" aria-label="Message on WhatsApp">
+                    <i class="fa fa-whatsapp"> WhatsApp: +44 7301 920610
+                </a>
+            </div>
+            <div class="flex items-center gap-2">
+                <div class="flex items-center text-yellow-400">
+                    <i class="fa fa-star">
+                    <i class="fa fa-star">
+                    <i class="fa fa-star">
+                    <i class="fa fa-star">
+                    <i class="fa fa-star">
+                </div>
+                <span class="text-xs">5.0 (100+ Google Reviews)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header class="sticky top-0 bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-primary">TS Minicab</a>
+            <nav class="hidden md:flex gap-8" aria-label="Main Navigation">
+                <a href="#quote" class="hover:text-secondary transition">Instant Quote</a>
+                <a href="#services" class="hover:text-secondary transition">Why Book With Us</a>
+                <a href="#airports" class="hover:text-secondary transition">Airports & Ports</a>
+                <a href="#fleet" class="hover:text-secondary transition">Our Fleet</a>
+                <a href="#faq" class="hover:text-secondary transition">FAQs</a>
+                <a href="#contact" class="hover:text-secondary transition">Contact</a>
+            </nav>
+            <button class="md:hidden text-2xl" id="menuToggle" aria-label="Toggle menu">
+                <i class="fa fa-bars">
+            </button>
+        </div>
+        <div class="md:hidden hidden bg-white absolute w-full border-t" id="mobileMenu">
+            <div class="container mx-auto px-4 py-3 flex flex-col gap-3">
+                <a href="#quote" class="py-2">Instant Quote</a>
+                <a href="#services" class="py-2">Why Book With Us</a>
+                <a href="#airports" class="py-2">Airports & Ports</a>
+                <a href="#fleet" class="py-2">Our Fleet</a>
+                <a href="#faq" class="py-2">FAQs</a>
+                <a href="#contact" class="py-2">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="bg-gradient-to-r from-slate-50 to-slate-100 py-16 md:py-24" id="quote">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h1 class="text-\[clamp(2rem,5vw,3.5rem)] font-bold text-primary leading-tight mb-6">
+                            London's Fixed-Fare Minicab & Airport Transfer Service
+                        </h1>
+                        <p class="text-lg text-gray-600 mb-8">
+                            Licensed private hire drivers. No surge pricing. A fare you agree before you travel.
+                        </p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa fa-check text-green-600 mt-1">
+                                <span><strong>Fixed fare agreed upfront</strong> — never changes, whatever the traffic</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa fa-check text-green-600 mt-1">
+                                <span><strong>All charges included</strong> — parking, tolls & Congestion Charge built in</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa fa-check text-green-600 mt-1">
+                                <span><strong>60 mins free waiting at airports</strong> + live flight tracking & meet and greet</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa fa-check text-green-600 mt-1">
+                                <span><strong>Heathrow, Gatwick, Stansted, Luton, London City</strong> — all major airports covered</span>
+                            </li>
+                        </ul>
+                    </div>
+ 
+                    <!-- QUOTE FORM -->
+                    <div class="bg-white rounded-xl shadow-soft p-6 md:p-8">
+                        <h2 class="text-xl font-semibold mb-5 text-center">Instant Online Quote</h2>
+                        <p class="text-sm text-gray-500 text-center mb-4">Fixed fare — no account needed</p>
+                        <form id="quoteForm" class="space-y-4">
+                            <div class="flex gap-4 mb-4">
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="radio" name="journeyType" value="oneway" checked class="accent-secondary">
+                                    <span>One Way</span>
+                                </label>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="radio" name="journeyType" value="return" class="accent-secondary">
+                                    <span>Return <span class="text-green-600 text-xs">(Discounted)</span></span>
+                                </label>
+                            </div>
+ 
+                            <div>
+                                <label for="pickup" class="block text-sm font-medium mb-1">Pickup Location</label>
+                                <input type="text" id="pickup" placeholder="e.g. Heathrow Airport, or your address" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                            </div>
+ 
+                            <div>
+                                <label for="destination" class="block text-sm font-medium mb-1">Destination</label>
+                                <input type="text" id="destination" placeholder="e.g. Gatwick Airport, or your destination" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                            </div>
+ 
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label for="date" class="block text-sm font-medium mb-1">Date</label>
+                                    <input type="date" id="date" required
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                                </div>
+                                <div>
+                                    <label for="time" class="block text-sm font-medium mb-1">Time</label>
+                                    <input type="time" id="time" required
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                                </div>
+                            </div>
+ 
+                            <div>
+                                <label for="passengers" class="block text-sm font-medium mb-1">Passengers</label>
+                                <select id="passengers" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                                    <option>1 Passenger</option>
+                                    <option>2 Passengers</option>
+                                    <option>3 Passengers</option>
+                                    <option>4 Passengers</option>
+                                    <option>5 Passengers</option>
+                                    <option>6 Passengers</option>
+                                </select>
+                            </div>
+ 
+                            <button type="submit"
+                                class="w-full bg-secondary hover:bg-secondary/90 text-white font-medium py-3 rounded-lg transition mt-2">
+                                Get My Fixed Fare Quote
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY BOOK WITH US -->
+        <section class="py-16 bg-white" id="services">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-4 text-primary">Why Book With TS Minicab?</h2>
+                <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Everything you'd expect from a professional private hire operator — nothing you wouldn't.</p>
+ 
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-tag">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Fixed Fares — No Surge</h3>
+                        <p class="text-gray-600">Your price is agreed before you travel and never changes because of traffic, demand, or time of day.</p>
+                    </div>
+ 
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-money">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">All Charges Included</h3>
+                        <p class="text-gray-600">Parking, tolls, and the London Congestion Charge are built into your fare — no surprise extras on arrival.</p>
+                    </div>
+ 
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-plane">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Flight Tracking & Meet & Greet</h3>
+                        <p class="text-gray-600">We monitor your flight and adjust pickup automatically. Your driver waits in arrivals with your name board.</p>
+                    </div>
+ 
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-clock-o">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Generous Free Waiting</h3>
+                        <p class="text-gray-600">60 minutes free at airports and cruise ports. 15 minutes free for all standard pickups.</p>
+                    </div>
+ 
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-id-card">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Licensed & Professional</h3>
+                        <p class="text-gray-600">Every booking goes to a fully licensed private hire driver in an insured, licensed vehicle.</p>
+                    </div>
+ 
+                    <div class="p-6 rounded-xl bg-slate-50 hover:shadow-lg transition">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary text-xl mb-4">
+                            <i class="fa fa-calendar-check-o">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Book How You Like</h3>
+                        <p class="text-gray-600">Online, by phone, or WhatsApp. A real person confirms every booking with driver & vehicle details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AIRPORTS \& CRUISE PORTS -->
+        <section class="py-16 bg-slate-50" id="airports">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-primary">Airport & Cruise Port Transfers</h2>
+ 
+                <h3 class="text-xl font-semibold mb-6">London Airports We Serve</h3>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-10">
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Heathrow</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Gatwick</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Luton</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Stansted</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">London City</a>
+                </div>
+ 
+                <h3 class="text-xl font-semibold mb-6">Cruise Port Transfers</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Southampton</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Dover</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Portsmouth</a>
+                    <a href="#" class="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition text-center font-medium">Bournemouth & Poole</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-primary">Book in Four Simple Steps</h2>
+ 
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                        <h3 class="font-semibold mb-2">Enter Your Journey</h3>
+                        <p class="text-gray-600 text-sm">Pickup, destination, and travel time</p>
+                    </div>
+ 
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                        <h3 class="font-semibold mb-2">Compare Vehicles</h3>
+                        <p class="text-gray-600 text-sm">See a fixed price for every class instantly</p>
+                    </div>
+ 
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                        <h3 class="font-semibold mb-2">Confirm Booking</h3>
+                        <p class="text-gray-600 text-sm">Add passenger & luggage details and submit</p>
+                    </div>
+ 
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full bg-secondary text-white flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                        <h3 class="font-semibold mb-2">Enjoy Your Journey</h3>
+                        <p class="text-gray-600 text-sm">Automatic confirmation — we handle the rest</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FLEET -->
+        <section class="py-16 bg-slate-50" id="fleet">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-primary">Our Fleet — A Vehicle for Every Journey</h2>
+ 
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <h3 class="text-xl font-semibold mb-3">Saloon</h3>
+                        <p class="text-gray-600 text-sm mb-4">Comfortable & efficient</p>
+                        <div class="flex gap-4 text-sm">
+                            <div><i class="fa fa-user"> 3 Passengers</div>
+                            <div><i class="fa fa-suitcase"> 3 Bags</div>
+                        </div>
+                    </div>
+ 
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <h3 class="text-xl font-semibold mb-3">Estate</h3>
+                        <p class="text-gray-600 text-sm mb-4">The family choice</p>
+                        <div class="flex gap-4 text-sm">
+                            <div><i class="fa fa-user"> 4 Passengers</div>
+                            <div><i class="fa fa-suitcase"> 2 Bags</div>
+                        </div>
+                    </div>
+ 
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <h3 class="text-xl font-semibold mb-3">Executive</h3>
+                        <p class="text-gray-600 text-sm mb-4">Business class comfort</p>
+                        <div class="flex gap-4 text-sm">
+                            <div><i class="fa fa-user"> 3 Passengers</div>
+                            <div><i class="fa fa-suitcase"> 2 Bags</div>
+                        </div>
+                    </div>
+ 
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <h3 class="text-xl font-semibold mb-3">MPV</h3>
+                        <p class="text-gray-600 text-sm mb-4">Spacious 6-seater</p>
+                        <div class="flex gap-4 text-sm">
+                            <div><i class="fa fa-user"> 6 Passengers</div>
+                            <div><i class="fa fa-suitcase"> 4 Bags</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs -->
+        <section class="py-16 bg-white" id="faq">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-primary">Frequently Asked Questions</h2>
+ 
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <details class="border rounded-lg p-4 open">
+                        <summary class="font-semibold cursor-pointer">How far in advance do I need to book?</summary>
+                        <p class="mt-2 text-gray-600">You can book as soon as you know your plans. For airport & cruise transfers we recommend at least 24 hours ahead, but same-day bookings are accepted by phone or WhatsApp when drivers are available.</p>
+                    </details>
+ 
+                    <details class="border rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">What happens if my flight is delayed?</summary>
+                        <p class="mt-2 text-gray-600">We track your flight using the number provided at booking. If you land late, pickup is adjusted automatically — no need to call. 60 minutes free waiting applies from landing time.</p>
+                    </details>
+ 
+                    <details class="border rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">How much free waiting time is included?</summary>
+                        <p class="mt-2 text-gray-600">60 minutes free at airports & ports. 15 minutes free for standard pickups. Additional waiting charged at £0.50 per minute.</p>
+                    </details>
+ 
+                    <details class="border rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">What is your cancellation policy?</summary>
+                        <p class="mt-2 text-gray-600">Free cancellation more than 24 hours before travel. 24–30 minutes: up to 50% charge. Less than 30 mins or no-show: up to 100% of fare.</p>
+                    </details>
+ 
+                    <details class="border rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">What payment methods do you accept?</summary>
+                        <p class="mt-2 text-gray-600">Cash, bank transfer, card/contactless, and online payment. Driver can take payment on the day for most journeys.</p>
+                    </details>
+ 
+                    <details class="border rounded-lg p-4">
+                        <summary class="font-semibold cursor-pointer">Is the fare really fixed?</summary>
+                        <p class="mt-2 text-gray-600">Yes — based on distance, time & vehicle type. Parking, tolls, and Congestion Charge are all included. Price never changes after booking.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="py-16 bg-primary text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6">Ready to Book Your Ride?</h2>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">Get an instant fixed-fare quote — book online in under a minute.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#quote" class="bg-accent hover:bg-accent/90 px-8 py-3 rounded-lg font-medium transition">
+                        Get Instant Quote
+                    </a>
+                    <a href="tel:+442036792664" class="bg-white/20 hover:bg-white/30 px-8 py-3 rounded-lg font-medium transition">
+                        Call +44 20 3679 2664
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-12" id="contact">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-10">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">TS Minicab</h3>
+                    <p class="mb-4">London's reliable fixed-fare minicab & airport transfer service. Licensed drivers. No surprises.</p>
+                    <div class="space-y-2">
+                        <a href="tel:+442036792664" class="block hover:text-white transition">+44 20 3679 2664</a>
+                        <a href="https://wa.me/+447301920610" class="block hover:text-white transition">WhatsApp: +44 7301 920610</a>
+                        <a href="mailto:booking@tsminicab.com" class="block hover:text-white transition">booking@tsminicab.com</a>
+                        <a href="mailto:admin@tsminicab.com" class="block hover:text-white transition">admin@tsminicab.com</a>
+                    </div>
+                </div>
+ 
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
+                    <div class="space-y-2">
+                        <a href="#quote" class="block hover:text-white transition">Get Quote</a>
+                        <a href="#services" class="block hover:text-white transition">Why Us</a>
+                        <a href="#airports" class="block hover:text-white transition">Airports & Ports</a>
+                        <a href="#fleet" class="block hover:text-white transition">Fleet</a>
+                        <a href="#faq" class="block hover:text-white transition">FAQs</a>
+                    </div>
+                </div>
+ 
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Registered Office</h3>
+                    <p>168 Henley Avenue<br>Sutton, SM3 9SA<br>United Kingdom</p>
+                </div>
+            </div>
+ 
+            <div class="border-t border-gray-800 mt-10 pt-6 text-center text-sm">
+                <p>© 2026 TS Minicab. All rights reserved. Licensed Private Hire Operator.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Quote form ready — connect your calculator or backend here');
+        });
+    </script>
+</body>
+</html>
